@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <div class="header">
             <div class="site-identity">
@@ -26,17 +27,16 @@
             </div>
 
             <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <a href="#home" class="active">Logo</a>
-                <div id="myLinks">
-                    <a href="#">Home</a>
-                    <a href="#">Genres</a>
-                    <a href="#">Authors</a>
-                    <a href="#">Publishers</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Authors</a></li>
+                    <li><a href="#">Publishers</a></li>
+                </ul>
             </div>
         </div>
         <div class="hero-section">
