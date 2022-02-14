@@ -24,7 +24,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -10px;
+  overflow-x: hidden !important;
+
   /* background-position: 40% 0%; */
+}
+
+.wrapper {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 a {
