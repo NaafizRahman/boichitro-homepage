@@ -252,8 +252,8 @@ ul li:hover {
 
 @media screen and (max-width: 768px) {
   .header {
-    margin-left: 2px;
-    margin-right: 2px;
+    /* margin-left: 2px; */
+    /* margin-right: 2px; */
     padding: 0 10px;
     height: 60px;
   }
